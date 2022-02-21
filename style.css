@@ -15,3 +15,29 @@ footer {
     height: 500px;
     background-color: black;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+    /*width: 200px;*/
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+.hero-text {
+    margin-left: 80px;
+}

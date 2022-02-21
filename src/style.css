@@ -8,6 +8,11 @@ section {
     border: solid black 1px;
 }
 
+.logo {
+    height: 120px;
+    margin: 30px;
+}
+
 .hero {
     background-color: #1c1d25;
     height: 100vh;
@@ -51,9 +56,9 @@ p {
 
 .hero-area {
     display: flex;
-    flex-direction: column;
     height: 100%;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hero-text {
@@ -80,4 +85,8 @@ p {
 .button:active {
     background-color: #a9a9a9;
     color: #808080;
+}
+
+.socials {
+    padding-bottom: 360px;
 }

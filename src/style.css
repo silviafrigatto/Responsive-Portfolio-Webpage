@@ -155,3 +155,15 @@ hr {
     text-decoration: none;
     color:#ef744b;
 }
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}

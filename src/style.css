@@ -141,7 +141,7 @@ p {
 
 .project-container {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -186,6 +186,10 @@ footer {
     outline: 0;
 }
 
+#nav-list {
+    margin-right: 30px;
+}
+
 @media only screen and (max-width: 1000px) {
     .hamburger {
         display: block;
@@ -211,5 +215,10 @@ footer {
 
     .logo {
         display: none;
+    }
+
+    .project-container {
+        display: flex;
+        justify-content:space-between;
     }
 }

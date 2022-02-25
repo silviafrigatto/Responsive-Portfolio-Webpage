@@ -33,6 +33,10 @@ nav {
     background-color: #2c2d38;
 }
 
+li:hover{
+    background-color: deeppink;
+}
+
 ul {
     display: flex;
     list-style-type: none;

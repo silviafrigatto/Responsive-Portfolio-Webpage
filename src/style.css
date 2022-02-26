@@ -141,6 +141,28 @@ p {
     margin-top: 20px;
 }
 
+.up-arrow-btn {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 9;
+}
+
+.up-arrow-btn a {
+    height: 39px;
+    width: 37px;
+    text-align: center;
+    background: #2c2d38;
+    display: block;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.up-arrow-btn a i {
+   color: #f2f2f2;
+   line-height: 39px;
+   font-size: 25px;
+}
 /*.button:hover {
     background-color: #ef744b;
 }

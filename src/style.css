@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,800&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
 }
 
 html {
@@ -54,12 +58,13 @@ footer {
 .navbar .content {
     display:flex;
     align-items: center;
-    justify-content: end;
+    justify-content:end;
+    margin-right: -15px;
 }
 
 .navbar .menu-list {
     display: inline-flex;
-    margin-top: -0.5%;
+    margin-top: -1.2%;
 }
 
 /*.menu-list li {
@@ -125,7 +130,7 @@ p {
     display: flex;
     height: 100%;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
 }
 
 .hero-text {
@@ -155,7 +160,13 @@ p {
 }*/
 
 .socials {
-    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -5px;
+}
+
+.github {
+    margin-left: -20px;
 }
 
 .media {

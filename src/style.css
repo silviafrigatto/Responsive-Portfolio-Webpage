@@ -117,8 +117,16 @@ p {
 }
 
 .hero-text {
-    margin-left: 80px;
+    margin-left: 60px;
     margin-bottom: 10px;
+}
+
+.hero-text:hover {
+    text-shadow: 0 0 10px rgb(238, 59, 199),
+    0 0 20px rgb(238, 59, 199),
+    0 0 40px rgb(238, 59, 199),
+    0 0 80px rgb(238, 59, 199),
+    0 0 120px rgb(238, 59, 199);
 }
 
 .button {

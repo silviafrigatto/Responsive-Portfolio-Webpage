@@ -58,7 +58,7 @@ footer {
 .navbar .content {
     display:flex;
     align-items: center;
-    justify-content:end;
+    justify-content:space-around;
     margin-right: -15px;
 }
 
@@ -162,11 +162,23 @@ p {
 .socials {
     display: flex;
     flex-direction: row;
-    margin-top: -5px;
+    margin-top: -12px;
 }
 
 .github {
     margin-left: -20px;
+}
+
+.github:hover {
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff;
+}
+
+.linkedin:hover {
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff;
 }
 
 .media {

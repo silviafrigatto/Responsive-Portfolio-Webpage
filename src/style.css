@@ -148,6 +148,13 @@ p {
     z-index: 9;
 }
 
+.up-arrow-btn:hover {
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 80px #fff;
+}
+
 .up-arrow-btn a {
     height: 39px;
     width: 37px;

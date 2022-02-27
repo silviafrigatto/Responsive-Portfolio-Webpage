@@ -153,10 +153,11 @@ p {
 }
 
 .up-arrow-btn:hover {
-    text-shadow: 0 0 10px #fff,
-    0 0 20px #fff,
-    0 0 40px #fff,
-    0 0 80px #fff;
+    text-shadow: 0 0 10px rgb(95, 241, 27),
+    0 0 20px rgb(95, 241, 27),
+    0 0 40px rgb(95, 241, 27),
+    0 0 80px rgb(95, 241, 27),
+    0 0 80px rgb(95, 241, 27);
 }
 
 .up-arrow-btn a {
@@ -170,7 +171,7 @@ p {
 }
 
 .up-arrow-btn a i {
-   color: #f2f2f2;
+   color:chartreuse;
    line-height: 39px;
    font-size: 25px;
 }

@@ -121,13 +121,9 @@ p {
     margin-bottom: 10px;
 }
 
-.hero-text:hover {
-    text-shadow: 0 0 10px rgb(238, 59, 199),
-    0 0 20px rgb(238, 59, 199),
-    0 0 40px rgb(238, 59, 199),
-    0 0 80px rgb(238, 59, 199),
-    0 0 120px rgb(238, 59, 199);
-}
+/*.hero-text:hover {
+    text-shadow: 0 0 10px #fff;
+}*/
 
 .button {
     width: 200px;
@@ -197,16 +193,24 @@ p {
     margin-left: -20px;
 }
 
+.github i{
+    color:rgb(248, 163, 202);
+}
+
 .github:hover {
-    text-shadow: 0 0 10px #fff,
-    0 0 20px #fff,
-    0 0 40px #fff;
+    text-shadow: 0 0 10px rgb(238, 59, 199),
+    0 0 20px rgb(238, 59, 199),
+    0 0 40px rgb(238, 59, 199);
+}
+
+.linkedin i{
+    color:rgb(248, 163, 202);
 }
 
 .linkedin:hover {
-    text-shadow: 0 0 10px #fff,
-    0 0 20px #fff,
-    0 0 40px #fff;
+    text-shadow: 0 0 10px rgb(238, 59, 199),
+    0 0 20px rgb(238, 59, 199),
+    0 0 40px rgb(238, 59, 199);
 }
 
 .media {

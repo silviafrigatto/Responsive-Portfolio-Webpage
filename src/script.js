@@ -23,5 +23,5 @@ cancelBtn.onclick = () => {
 
 window.addEventListener('scroll', function(){
     var scroll = document.querySelector('.up-arrow-btn');
-    scroll.classList.toggle("active", window.scrollY > 500)
+    scroll.classList.toggle("active", window.scrollY > 250)
 })

@@ -20,3 +20,8 @@ cancelBtn.onclick = () => {
     menu.classList.remove("active");
     menuBtn.classList.remove("hide");
 }
+
+window.addEventListener('scroll', function(){
+    var scroll = document.querySelector('.up-arrow-btn');
+    scroll.classList.toggle("active", window.scrollY > 500)
+})

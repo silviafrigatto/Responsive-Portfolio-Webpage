@@ -146,6 +146,14 @@ p {
     bottom: 15px;
     right: 15px;
     z-index: 9;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.up-arrow-btn.active {
+    visibility: visible;
+    opacity: 1;
 }
 
 .up-arrow-btn:hover {

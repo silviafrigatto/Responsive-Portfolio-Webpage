@@ -25,8 +25,13 @@ section {
 }
 
 footer {
-    height: 500px;
     background-color: black;
+}
+
+#copyright {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
 }
 
 .content {
@@ -285,14 +290,14 @@ a {
     color:white;
 }
 
-footer {
+section#contact {
     background-color: black;
     color: white;
     text-align: center;
     padding: 80px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-around;
     flex-direction: column;
 }
 

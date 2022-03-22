@@ -223,7 +223,7 @@ p {
     margin-right: 50px;
 }
 
-.sub-section {
+#about-me {
     display: flex;
     justify-content: space-around;
     height: 100vh;
@@ -231,7 +231,7 @@ p {
     transition: all 0.3s ease;
 }
 
-.sub-section-alternative {
+#projects {
     display: flex;
     flex-direction: column;
     text-align: center;

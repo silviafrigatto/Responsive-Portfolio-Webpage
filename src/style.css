@@ -17,7 +17,7 @@ section {
     background-color: white;
 }
 
-.hero {
+.home {
     background-color: #1c1d25;
     height: 100vh;
     color: white;
@@ -114,14 +114,14 @@ p {
     font-weight: 300;
 }
 
-.hero-area {
+.home-area {
     display: flex;
     height: 100%;
     justify-content: space-between;
     align-items:center;
 }
 
-.hero-text {
+.home-text {
     margin-left: 60px;
     margin-bottom: 10px;
 }

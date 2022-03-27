@@ -231,13 +231,31 @@ p {
     transition: all 0.3s ease;
 }
 
+
+
 #projects {
-    display: flex;
+    display:flex;
     flex-direction: column;
-    text-align: center;
-    padding: 80px;
+    align-items: center;
+    justify-content:space-between;
 }
 
+#project-box {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+#contact {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+}
 .headshot {
     width: 300px;
     border-radius: 10%;
@@ -259,15 +277,12 @@ p {
     justify-content:space-around;
 }
 
-
-
 @media only screen and (max-width: 1000px) {
     .project-container {
         display: flex;
         flex-wrap: wrap;
     }
 }
-
 
 
 .project-image {
@@ -288,17 +303,6 @@ hr {
 a {
     text-decoration: none;
     color:white;
-}
-
-section#contact {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 80px;
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    flex-direction: column;
 }
 
 .form {

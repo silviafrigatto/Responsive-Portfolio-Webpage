@@ -244,12 +244,15 @@ p {
 .row {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-    gap: 40px;
-    padding-top: 80px;
+    gap: 45px;
+    padding: 50px 0px 50px 0px;
 }
 
+.text {
+    border: solid 1px #0072c4;
+    width: 600px
+}
 
 /*#project-box {
     display:flex;

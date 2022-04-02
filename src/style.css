@@ -103,6 +103,10 @@ h2 {
     font-size: 50px;
 }
 
+h3 {
+    font-size: x-large;
+}
+
 p {
     margin: 0;
     font-size: 30px;
@@ -250,7 +254,6 @@ p {
 }
 
 .text {
-    border: solid 1px #0072c4;
     width: 600px
 }
 

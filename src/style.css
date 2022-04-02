@@ -241,6 +241,13 @@ p {
     justify-content:space-between;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
 
 
 /*#project-box {

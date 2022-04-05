@@ -231,11 +231,15 @@ p {
     display: flex;
     justify-content: space-around;
     height: 100vh;
-    padding: 80px;
+    padding: 70px;
     transition: all 0.3s ease;
 }
 
-
+.information p{
+    width: 600px;
+    font-size: 25px;
+    text-align: justify;
+}
 
 #projects {
     display:flex;

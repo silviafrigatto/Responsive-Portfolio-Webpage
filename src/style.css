@@ -27,7 +27,7 @@ section {
 footer {
     background-color: black;
     font-size: 2px;
-    padding-top: 18px;
+    padding-top: 27px;
 }
 
 #copyright {
@@ -237,10 +237,11 @@ p {
     transition: all 0.3s ease;
 }
 
-.information p{
+.information p {
     width: 600px;
     font-size: 25px;
     text-align: justify;
+    padding: 8px;
 }
 
 #projects {
@@ -268,12 +269,6 @@ p {
     width: 600px
 }
 
-/*#project-box {
-    display:flex;
-    flex-direction: row;
-    justify-content:space-around;
-}*/
-
 #contact {
     background-color: black;
     color: white;
@@ -292,30 +287,6 @@ p {
 .headshot-container {
     display: flex;
     align-items: center;
-}
-
-.project-card {
-    width: 250px;
-    height: 500px;
-    box-shadow: 5px 5px 20px gray;
-}
-
-.project-container {
-    display: flex;
-    justify-content:space-around;
-}
-
-@media only screen and (max-width: 1000px) {
-    .project-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
-
-.project-image {
-    margin-top: 25px;
-    width: 220px;
 }
 
 hr {

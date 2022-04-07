@@ -24,6 +24,10 @@ section {
     font-size: 40px;
 }
 
+.banner-image {
+    transition: all 1s ease
+}
+
 footer {
     background-color: black;
     font-size: 2px;
@@ -232,17 +236,22 @@ p {
 
 #about-me {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     height: 100vh;
     padding: 70px;
     transition: all 0.3s ease;
 }
 
+#about-me .row{
+    padding-top: 5px;
+}
+
 .information p {
     width: 600px;
     font-size: 25px;
     text-align: justify;
-    padding: 8px;
+    padding: 4px;
 }
 
 #projects {
@@ -282,12 +291,17 @@ p {
 }
 .headshot {
     width: 300px;
+    margin-right: 100px;
     border-radius: 10%;
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;*/
 }
 
 .headshot-container {
     display: flex;
-    align-items: center;
+    padding-bottom: 0px;
 }
 
 hr {
@@ -442,3 +456,24 @@ a {
         justify-content:space-between;
     }
 }
+
+@media (max-width: 1000px) {
+
+    
+    .banner-image {
+        display: none;
+        transition: all 0.5s ease;
+    }
+
+    #about-me .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 90px;
+    }
+
+    .information p{
+        font-size: 20px;
+        transition: all 0.3s ease;
+    }
+  }

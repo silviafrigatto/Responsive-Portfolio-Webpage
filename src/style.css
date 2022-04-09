@@ -240,6 +240,7 @@ p {
     justify-content: space-around;
     height: 100vh;
     padding: 70px;
+    border-bottom: #1c1d25 solid 1px;
     transition: all 0.3s ease;
 }
 

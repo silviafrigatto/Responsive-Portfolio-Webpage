@@ -249,7 +249,7 @@ p {
 }
 
 .information p {
-    width: 600px;
+    width: 690px;
     font-size: 25px;
     text-align: justify;
     padding: 4px;
@@ -291,18 +291,15 @@ p {
     flex-direction: column;
 }
 .headshot {
-    width: 300px;
-    margin-right: 100px;
     border-radius: 10%;
-    /*display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;*/
+    width: 325px;
+    height: 475px;
+    margin: 50px 100px 20px 100px;
 }
 
 .headshot-container {
     display: flex;
-    padding-bottom: 0px;
+    align-content: center;
 }
 
 hr {
@@ -465,11 +462,19 @@ a {
         transition: all 0.5s ease;
     }
 
+    #about-me {
+        height: 1100px;
+    }
+
+    #about-me h2{
+        padding-top: 90px;
+    }
+
     #about-me .row {
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 90px;
+      padding: 0px 90px 90px 90px;
     }
 
     .information p{ 

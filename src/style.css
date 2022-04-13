@@ -32,9 +32,9 @@ section {
     height:auto;
 }
 
-footer {
+#contact footer {
     background-color: black;
-    font-size: 2px;
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
     padding-top: 27px;
 }
 
@@ -254,7 +254,7 @@ p {
 
 .information p {
     width: 690px;
-    font-size: 25px;
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
     text-align: justify;
     padding: 4px;
 }
@@ -459,24 +459,46 @@ a {
 
     /* Sobre*/
     #about-me {
-        height: 1100px;
+        padding-top: 90px;
+        height: fit-content;
     }
 
     #about-me .row {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0px 90px 90px 90px;
+        
       }
 
+     .information p {
+         width: fit-content;
+     } 
+
     /*Projetos*/
+
+    #projects {
+        height: fit-content;
+    }
+
     #projects .row {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .information p {
+    #projects iframe {
+        display: none;
+    }
+
+    #projects img {
+        display: none;
+    }
+
+    #projects .text p{
+        width: fit-content;
+    }
+
+    /*.information p {
     font-size: 16px;
     }
 
@@ -489,7 +511,7 @@ a {
     @media screen and (min-width: 1000px) {
     .information p {
         font-size: 22px;
-    }  
+    }  */
     
 }
 

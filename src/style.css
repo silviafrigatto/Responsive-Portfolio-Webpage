@@ -25,11 +25,10 @@ section {
 }
 
 
-
 .tetris {
-    padding-top: 70px;
-    max-width:auto;
-    height:auto;
+    padding-top: 15px;
+    width: 600px;
+    height: 100vh;
 }
 
 #contact footer {

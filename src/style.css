@@ -255,7 +255,7 @@ p {
     width: 690px;
     font-size: clamp(1em, 1em + 1vw, 1.5em);
     text-align: justify;
-    padding: 4px;
+    padding: 6px;
 }
 
 #projects {
@@ -297,7 +297,7 @@ p {
     border-radius: 10%;
     width: 325px;
     height: 475px;
-    margin: 50px 100px 20px 100px;
+    margin: 50px 100px 20px 90px;
 }
 
 .headshot-container {

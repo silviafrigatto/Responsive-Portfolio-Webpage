@@ -31,6 +31,11 @@ section {
     height: 100vh;
 }
 
+.options {
+    display: flex;
+    flex-direction: row;
+}
+
 #contact footer {
     background-color: black;
     font-size: clamp(1em, 1em + 1vw, 1.5em);
@@ -79,7 +84,7 @@ section {
 .menu-list li a {
     color: aqua;
     transition: all 0.3s ease;
-    padding-right: 25px;
+    padding-right: 24px;
 }
 
 li:hover{
@@ -91,7 +96,7 @@ li:hover{
 ul {
     display: flex;
     list-style-type: none;
-    width: 500px;
+    width: fit-content;
     justify-content: space-around;
     font-size: 30px;
 }
